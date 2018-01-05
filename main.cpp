@@ -1,10 +1,3 @@
-// Name:
-// Quarter, Year:
-// Lab:
-//
-// This file is to be modified by the student.
-// main.cpp
-////////////////////////////////////////////////////////////
 #ifndef __APPLE__
 #include <GL/glut.h>
 #else
@@ -29,9 +22,7 @@ vec3 lastPoint;
 
 void bezier(vector< vec3 > &points)
 {
-		//GLfloat L = (1 - t)*((1-t)*P0 + t*P1) + t((1-t)*P1 + t*P2);
-		
-		
+
 
 		glMatrixMode(GL_PROJECTION);
 		glLoadIdentity();
